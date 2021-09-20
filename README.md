@@ -10,17 +10,17 @@ See the balanced accuracy scores and the precision and recall scores of all six 
 
 ### Oversampling: Naive Random Sampling
 <p align="center">
-  <img width="400" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_naive.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_naive.PNG">
 </p>
 
 ### Oversampling: SMOTE Oversampling
 <p align="center">
-  <img width="500" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_smote.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_smote.PNG">
 </p>
 
 ### Undersampling: ClusterCentroids
 <p align="center">
-  <img width="600" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/under.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/under.PNG">
 </p>
 
 ### Combination (Over & Under) Samplings: SMOTEENN
@@ -30,12 +30,12 @@ See the balanced accuracy scores and the precision and recall scores of all six 
 
 ### Ensemble Learners: Balanced Random Forest Classifier
 <p align="center">
-  <img width="800" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/balanced_ensemble.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/balanced_ensemble.PNG">
 </p>
 
 ### Ensemble Learners: Easy Ensemble AdaBoost Classifier
 <p align="center">
-  <img width="400" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/easy_ensemble.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/easy_ensemble.PNG">
 </p>
 
 ## Summary: 
