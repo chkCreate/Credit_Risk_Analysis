@@ -10,35 +10,35 @@ See the balanced accuracy scores and the precision and recall scores of all six 
 
 ### Oversampling: Naive Random Sampling
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_naive.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/over_naive.PNG">
 </p>
 
 ### Oversampling: SMOTE Oversampling
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_smote.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/over_smote.PNG">
 </p>
 
 ### Undersampling: ClusterCentroids
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/under.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/under.PNG">
 </p>
 
 ### Combination (Over & Under) Samplings: SMOTEENN
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/combo.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/combo.PNG">
 </p>
 
 ### Ensemble Learners: Balanced Random Forest Classifier
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/balanced_ensemble.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/balanced_ensemble.PNG">
 </p>
 
 ### Ensemble Learners: Easy Ensemble AdaBoost Classifier
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/easy_ensemble.PNG">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/cda30c97b2d397e99e518b63226910f3932c49aa/Results/easy_ensemble.PNG">
 </p>
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning\.
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any\. If you do not recommend any of the models, justify your reasoning\.
 
 After reviewing the results from all six (6) different types of classifications report, Ensemble Learners: Easy Ensemble AdaBoost Classifier yielded the highest f1 score, which is the average accuacy of the tests calculated from the precision and accuracy statistics from the testing results\. 
