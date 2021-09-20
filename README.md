@@ -6,36 +6,36 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm\. Then, I used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm\. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk\. 
 
 ## Results: 
-See the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+See the balanced accuracy scores and the precision and recall scores of all six machine learning models\. The following screenshots demonstrate the clissification reports generated for each method performance\.
 
 ### Oversampling: Naive Random Sampling
 <p align="center">
-  <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="400" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_naive.PNG">
 </p>
 
 ### Oversampling: SMOTE Oversampling
 <p align="center">
-  <img width="500" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="500" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/over_smote.PNG">
 </p>
 
 ### Undersampling: ClusterCentroids
 <p align="center">
-  <img width="600" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="600" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/under.PNG">
 </p>
 
 ### Combination (Over & Under) Samplings: SMOTEENN
 <p align="center">
-  <img width="700" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="700" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/combo.PNG">
 </p>
 
 ### Ensemble Learners: Balanced Random Forest Classifier
 <p align="center">
-  <img width="800" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="800" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/balanced_ensemble.PNG">
 </p>
 
 ### Ensemble Learners: Easy Ensemble AdaBoost Classifier
 <p align="center">
-  <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
+  <img width="400" height="180" src="https://github.com/chkCreate/Credit_Risk_Analysis/blob/98237b2bb21c2d0db50d4037c15fbaf050d8e93f/Results/easy_ensemble.PNG">
 </p>
 
 ## Summary: 
