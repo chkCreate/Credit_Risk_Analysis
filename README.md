@@ -39,6 +39,4 @@ See the balanced accuracy scores and the precision and recall scores of all six 
 </p>
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any\. If you do not recommend any of the models, justify your reasoning\.
-
 After reviewing the results from all six (6) different types of classifications report, Ensemble Learners: Easy Ensemble AdaBoost Classifier yielded the highest f1 score, which is the average accuacy of the tests calculated from the precision and accuracy statistics from the testing results\. 
